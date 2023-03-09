@@ -1,7 +1,7 @@
 import { STATE_TYPE } from '../config'
 
 // statusSum => 狀態總量
-// moduleStatus = 個模組狀態
+// moduleStatus => 各模組狀態
 
 const getDefaultStatusSum = () => Object.keys(STATE_TYPE).fill(0)
 
